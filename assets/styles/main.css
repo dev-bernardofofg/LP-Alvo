@@ -86,6 +86,7 @@ body {
 .container__one img {
   position: relative;
   left: -128px;
+  top: 4px;
   margin-top: 32px;
 }
 
