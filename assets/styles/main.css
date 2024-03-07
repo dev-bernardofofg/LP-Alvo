@@ -116,13 +116,16 @@ body {
 
   color: var(--main-white);
   font-family: "Poppins", sans-serif;
-  text-transform: uppercase;
   font-size: 1.6rem;
   font-weight: 600;
 
   border: 0;
   padding: 8px;
   border-radius: 48px;
+}
+
+.container__one--texts a button {
+  color: var(--main-white);
 }
 
 .container__two {
@@ -319,13 +322,16 @@ body {
 
 .container__five--content button {
   background-color: var(--main-white);
-  color: var(--light-blue);
   font-family: "Montserrat", sans-serif;
   padding: 16px 48px;
   border-radius: 30px;
   font-size: 1.25rem;
   font-weight: bolder;
   border: 0;
+}
+
+.container__five--content a button {
+  color: var(--light-blue);
 }
 
 footer {
