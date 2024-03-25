@@ -11,6 +11,7 @@
     margin-top: 32px;
     padding: 0px 16px;
     gap: 16px;
+    flex-direction: column;
   }
 
   .container__header--list {
@@ -35,14 +36,22 @@
   .container__one img {
     top: 0px;
     left: 0px;
-    width: 450px;
+    width: 100%;
+  }
+
+  .container__two {
+    paddgin: 32px 0px;
+  }
+
+  .container__two__second--section {
+    padding: 4px;
   }
 
   .container__one--texts h1,
   .container__two__second--section h2,
   .container__four--content--texts h2 {
     text-align: center;
-    font-size: 2.75rem;
+    font-size: 2rem;
   }
 
   .container__one--texts p,
@@ -53,6 +62,11 @@
 
   .container__one--texts button {
     padding: 8px 32px;
+  }
+
+  .container__one--texts p {
+    width: 70%;
+    text-align: center;
   }
 
   .container__three--grid {
@@ -80,7 +94,7 @@
   }
 
   .container__four--content img {
-    width: 400px;
+    width: 100%;
   }
 
   .container__five {
@@ -102,6 +116,11 @@
   }
 
   .container__five--content h1 {
-    font-size: 3rem;
+    font-size: 2rem;
+  }
+
+  .container__five--content a button {
+    font-size: 1.25rem;
+    padding: 16px 24px;
   }
 }
